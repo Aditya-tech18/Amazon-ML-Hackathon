@@ -1,0 +1,19 @@
+.DS_Store
+
+.venv/
+__pycache__/
+*.pyc
+
+# Competition raw dataset
+student_resource/dataset/
+
+# Generated artifacts
+student_resource/artifacts/
+student_resource/logs/
+
+# Trained models
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
